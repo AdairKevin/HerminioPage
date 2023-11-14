@@ -6,9 +6,30 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script>
-    <title>Document</title>
+    <title>PXNDX</title>
 </head>
+
 <body>
     
+    <header>
+        <div id="nav"></div>
+    </header>
+
+    <div id="contenedor">
+        
+    </div>
+
+    <footer>
+        <div id="pie"></div>
+    </footer>
+
+    <script type="text/javascript">
+        $('contenedor').load('contenido.html');
+        $('#nav').load('nav.html');
+        $('#pie').load('footer.html');
+    </script>
+
+
 </body>
+
 </html>
