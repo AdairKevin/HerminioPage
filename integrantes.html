@@ -1,0 +1,40 @@
+<style>
+    #galeria{
+        display: flex;
+        height: 600px;
+        width: 1000px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    section img{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5 ease;
+    }
+
+    section img:hover{
+        cursor: crosshair;
+        width: 400px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+
+    #gale{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+
+    }
+</style>
+
+<div class="content" id="gale">
+    <section id="galeria">
+        <img src="https://coahuila.elsiglo.mx/i/2020/10/1042726.jpeg" alt="">
+        <img src="https://revistakuadro.com/wp-content/uploads/2017/09/TREKK-12.jpg" alt="">
+        <img src="https://www.publimetro.com.mx/resizer/RxksEn9l24iVNT9Z7DQfxl6A5Pg=/1024x1024/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/LP6UTFM5GVCAZMSQYZS5Q4VDEE.jpg" alt="">
+        <img src="https://punkeando.com.mx/wp-content/webpc-passthru.php?src=https://punkeando.com.mx/wp-content/uploads/2020/11/kross.png&nocache=1" alt="">
+    </section>
+</div>
